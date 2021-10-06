@@ -28,6 +28,11 @@ public class Controller {
         return "request on process. please wait...";
     }
 
+    @GetMapping(value = "greetings")
+    public String welcomeGreetings(){
+        return "Welcome to pub-sub apps";
+    }
+
 
 
 }
